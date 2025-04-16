@@ -2,6 +2,7 @@
 A real-time data processing pipeline that fetches user data from an API, processes it through Apache Kafka, transforms it using Apache Spark Streaming, and stores it in Apache Cassandra, orchestrated by Apache Airflow.
 
 ![image](https://github.com/user-attachments/assets/c7f87203-dea4-4bed-a0dc-8697d40a3adb)
+---
 
 ## Main Tasks
 The project aims to establish a real-time data analysis system for capturing and processing user data efficiently by leveraging advanced technologies and a robust data pipeline:
@@ -29,9 +30,9 @@ Processes and analyzes streaming data.
 ![image](https://github.com/user-attachments/assets/bd7d6d93-ca35-4e22-81c3-4d755cbd2211)
 
 ## Data loaded in Cassandra
-Cassandra: is an open source NoSQL distributed database, making it an excellent choice for real-time application.  
+**Cassandra**: is an open source NoSQL distributed database, making it an excellent choice for real-time application.  
 Connect to Cassandra and run:  
-`docker exec -it cassandra cqlsh -u cassandra -p cassandra`
+    `docker exec -it cassandra cqlsh -u cassandra -p cassandra`
 ![image](https://github.com/user-attachments/assets/28cb239c-8b39-4616-b6fd-932d456d44ca)
 
 
