@@ -22,17 +22,18 @@ PostgreSQL stores processed data for further analysis.
 Apache Kafka: Distributed messaging system for real-time data streaming.
 Apache Kafka's Confluent Control center is a comprehensive management and monitoring tool for Kafka Clusters with user-friendly interface to track the health and performance of Kafka clusters, manage topics, configure alerts and analyze data streams.
 Schema registry: Manages and enforces data schemas for Kafka topics, ensuring that data producers and consumers adhere to predefined data structures.
-![image](https://github.com/user-attachments/assets/11aef9e5-b591-4221-b77f-b7a444fe7bb0)
+![image](https://github.com/user-attachments/assets/cd858801-1bbf-4172-81a7-d79eae022d54)
 
 ## View Spark Job UI
 Processes and analyzes streaming data.
-![image](https://github.com/user-attachments/assets/e83d3643-befe-4290-be19-30f7508eef65)
+![image](https://github.com/user-attachments/assets/bd7d6d93-ca35-4e22-81c3-4d755cbd2211)
 
 ## Data loaded in Cassandra
 Cassandra: is an open source NoSQL distributed database, making it an excellent choice for real-time application.
 Connect to Cassandra and run:
 docker exec -it cassandra cqlsh -u cassandra -p cassandra
-![image](https://github.com/user-attachments/assets/2cb43652-699d-4fda-a740-48f78e3d7b51)
+![image](https://github.com/user-attachments/assets/28cb239c-8b39-4616-b6fd-932d456d44ca)
+
 
 
 
