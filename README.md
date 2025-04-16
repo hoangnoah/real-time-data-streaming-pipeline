@@ -16,9 +16,7 @@ The project aims to establish a real-time data analysis system for capturing and
 ## Schedule data ingestion with airflow
 Airflow automates and schedules workflows.
 PostgreSQL stores processed data for further analysis.
-![airflow](https://github.com/user-attachments/assets/25d5602e-a374-4023-b1fa-1d971024b0b5)
-
-
+![image](https://github.com/user-attachments/assets/3aebeb0d-9a38-4217-a3ae-066947d51619)
 
 ## View data in topic Confluent Control Center Kafka
 Apache Kafka: Distributed messaging system for real-time data streaming.
