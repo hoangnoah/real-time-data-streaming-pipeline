@@ -14,24 +14,24 @@ The project aims to establish a real-time data analysis system for capturing and
 * Data-Driven Decisions: Providing stakeholders with timely, actionable insights for informed decision-making.
 
 ## Schedule data ingestion with airflow
-Airflow automates and schedules workflows.
-PostgreSQL stores processed data for further analysis.
+Airflow automates and schedules workflows.  
+PostgreSQL stores processed data for further analysis.  
 ![image](https://github.com/user-attachments/assets/3aebeb0d-9a38-4217-a3ae-066947d51619)
 
-## View data in topic Confluent Control Center Kafka
-Apache Kafka: Distributed messaging system for real-time data streaming.
-Apache Kafka's Confluent Control center is a comprehensive management and monitoring tool for Kafka Clusters with user-friendly interface to track the health and performance of Kafka clusters, manage topics, configure alerts and analyze data streams.
-Schema registry: Manages and enforces data schemas for Kafka topics, ensuring that data producers and consumers adhere to predefined data structures.
+## View data in topic Confluent Control Center Kafka  
+Apache Kafka: Distributed messaging system for real-time data streaming.  
+Apache Kafka's Confluent Control center is a comprehensive management and monitoring tool for Kafka Clusters with user-friendly interface to track the health and performance of Kafka clusters, manage topics, configure alerts and analyze data streams.  
+Schema registry: Manages and enforces data schemas for Kafka topics, ensuring that data producers and consumers adhere to predefined data structures.  
 ![image](https://github.com/user-attachments/assets/cd858801-1bbf-4172-81a7-d79eae022d54)
 
 ## View Spark Job UI
-Processes and analyzes streaming data.
+Processes and analyzes streaming data.  
 ![image](https://github.com/user-attachments/assets/bd7d6d93-ca35-4e22-81c3-4d755cbd2211)
 
 ## Data loaded in Cassandra
-Cassandra: is an open source NoSQL distributed database, making it an excellent choice for real-time application.
-Connect to Cassandra and run:
-docker exec -it cassandra cqlsh -u cassandra -p cassandra
+Cassandra: is an open source NoSQL distributed database, making it an excellent choice for real-time application.  
+Connect to Cassandra and run:  
+`docker exec -it cassandra cqlsh -u cassandra -p cassandra`
 ![image](https://github.com/user-attachments/assets/28cb239c-8b39-4616-b6fd-932d456d44ca)
 
 
